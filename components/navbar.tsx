@@ -89,7 +89,7 @@ export const Navbar = () => {
             isExternal
             as={Link}
             className="text-sm font-normal text-default-600"
-            href={siteConfig.links.sponsor}
+            href="/login"
             color="primary"
             variant="light"
           >
@@ -99,7 +99,7 @@ export const Navbar = () => {
             isExternal
             as={Link}
             className="text-sm font-normal text-default-600 text-white bg-blue-600"
-            href={siteConfig.links.sponsor}
+            href="/signup"
             color="primary"
             variant="shadow"
           >
